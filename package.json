@@ -1,15 +1,23 @@
 {
-    "name": "bootstrap-webpack",
+    "name": "csaliwedding",
     "version": "1.0.0",
-    "description": "",
+    "description": "Itt lesz a kis eskuvonk oldala.",
     "main": "index.js",
     "scripts": {
         "build": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/csacsi/csaliwedding.git"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/csacsi/csaliwedding/issues"
+    },
+    "homepage": "https://github.com/csacsi/csaliwedding#readme",
     "devDependencies": {
         "autoprefixer": "^9.8.0",
         "css-loader": "^3.5.3",

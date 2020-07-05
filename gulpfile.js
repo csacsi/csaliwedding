@@ -84,6 +84,7 @@ gulp.task('merge-styles', function() {
             'css/vendor/magnific-popup.css',
             'css/vendor/flexslider.css',
             'fonts/icomoon/style.css',
+            'fonts/adorabouton/style.css',
         ])
         // .pipe(sourcemaps.init())
         // .pipe(autoprefixer({
@@ -99,27 +100,27 @@ gulp.task('merge-styles', function() {
         .pipe(reload({ stream: true }));
 });
 
-/* Reload task */
-gulp.task('bs-reload', function() {
-    browserSync.reload();
-});
+// /* Reload task */
+// gulp.task('bs-reload', function() {
+//     browserSync.reload();
+// });
 
 /* Prepare Browser-sync for localhost */
-gulp.task('browser-sync', function() {
-    browserSync.init(['css/*.css', 'js/*.js'], {
+// gulp.task('browser-sync', function() {
+//     browserSync.init(['css/*.css', 'js/*.js'], {
 
-        proxy: 'localhost/probootstrap/wedding'
-            /* For a static server you would use this: */
-            /*
-            server: {
-                baseDir: './'
-            }
-            */
-    });
-});
+//         proxy: 'localhost/probootstrap/wedding'
+//             /* For a static server you would use this: */
+//             /*
+//             server: {
+//                 baseDir: './'
+//             }
+//             */
+//     });
+// });
 
 /* Watch scss, js and html files, doing different things with each. */
-gulp.task('default', ['minify-custom', 'sass', 'scripts', 'browser-sync'], function() {
+gulp.task('default', ['minify-custom', 'sass', 'scripts'], function() {
     /* Watch scss, run the sass task on change. */
     gulp.watch(['scss/*.scss', 'scss/**/*.scss'], ['sass'])
         /* Watch app.js file, run the scripts task on change. */

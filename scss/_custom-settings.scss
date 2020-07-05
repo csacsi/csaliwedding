@@ -9,14 +9,6 @@
 }
 
 @font-face {
-    font-family: 'adorabouton';
-    src: url('../fonts/adorabouton/adorabouton.ttf');
-    src: url('../fonts/adorabouton/adorabouton.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'moontime';
     src: url('../fonts/moontime/MoonTime-Regular.ttf');
     src: url('../fonts/moontime/MoonTime-Regular.ttf') format('truetype');
@@ -52,8 +44,6 @@ $font-cim: 'Moontime',
 cursive;
 $font-secondary: 'Always Forever',
 serif;
-// $font-secondary: 'Zilla Slab',
-// serif;
 $brand-primary: #819080;
 $brand-black: #000000;
 $brand-white: #ffffff;

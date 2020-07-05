@@ -29,6 +29,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'alwaysforever';
+  src: url("../fonts/always_forever/Always Forever.ttf");
+  src: url("../fonts/always_forever/Always Forever.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   overflow-x: hidden;
   font-size: 1.25em;
@@ -65,27 +73,27 @@ h4 {
   margin: 1.414em 0 0.5em;
   font-weight: 400;
   line-height: 1.2;
-  font-family: "Zilla Slab", serif;
-  color: #bac4c2;
+  font-family: "Always Forever", serif;
+  color: #819080;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 3.998em;
+  font-size: 5.998em;
 }
 
 h2 {
-  font-size: 2.827em;
+  font-size: 4.827em;
 }
 
 
 h3,
 .text-intro-wrap .text-intro h2 {
-  font-size: 1.999em;
+  font-size: 2.999em;
 }
 
 h4 {
-  font-size: 1.414em;
+  font-size: 2.414em;
 }
 
 small,
@@ -102,11 +110,11 @@ ol {
 a {
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  color: #bac4c2;
+  color: #819080;
 }
 
 a:hover, a:focus, a:active {
-  color: #acb8b6;
+  color: #748473;
   text-decoration: none;
 }
 
@@ -314,8 +322,8 @@ a:hover, a:focus, a:active {
 
 .probootstrap-navbar .navbar-brand {
   font-family: "Moontime", cursive;
-  color: #ffffff;
-  font-size: 26px;
+  color: #000000;
+  font-size: 40px;
   font-weight: 400;
 }
 
@@ -331,10 +339,10 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav > li > a {
-  color: white;
-  font-size: 15px;
+  color: black;
+  font-size: 30px;
   position: relative;
-  text-transform: uppercase;
+  font-family: "Always Forever", serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -417,7 +425,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav.active > a {
-  color: #bac4c2 !important;
+  color: #819080 !important;
 }
 
 .probootstrap-navbar .dropdown-submenu {
@@ -513,12 +521,12 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-  color: #bac4c2 !important;
+  color: #819080 !important;
 }
 
 @media screen and (max-width: 768px) {
   .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-    color: #bac4c2 !important;
+    color: #819080 !important;
   }
 }
 
@@ -537,7 +545,7 @@ a:hover, a:focus, a:active {
   font-size: 180px;
   line-height: 200px;
   margin: 0;
-  margin-bottom: 200px;
+  margin-top: 200px;
   font-family: "Moontime", cursive;
 }
 
@@ -555,7 +563,8 @@ a:hover, a:focus, a:active {
 
 .text-intro-wrap .text-intro h2 {
   color: #ffffff;
-  font-family: "Zilla Slab", serif;
+  font-family: "Always Forever", serif;
+  font-size: 3.999em;
   margin-top: 10px;
 }
 
@@ -600,7 +609,7 @@ a:hover, a:focus, a:active {
   text-align: center;
   display: block;
   margin-top: 40px;
-  font-family: "Zilla Slab", serif;
+  font-family: "Always Forever", serif;
   font-weight: 700;
   letter-spacing: 0.1em;
 }
@@ -650,7 +659,7 @@ a:hover, a:focus, a:active {
 .probootstrap-groom-bride .probootstrap-divider span {
   display: block;
   margin-top: 210px;
-  color: #bac4c2;
+  color: #819080;
 }
 
 @media screen and (max-width: 768px) {
@@ -754,36 +763,36 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary {
-  border: 1px solid #bac4c2;
-  background: #bac4c2;
+  border: 1px solid #819080;
+  background: #819080;
   color: #ffffff;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #bfc9c7;
+  background: #869585;
 }
 
 .btn.btn-primary:focus, .btn.btn-primary:active {
   outline: none;
-  border: 1px solid #bac4c2;
+  border: 1px solid #819080;
 }
 
 .btn.btn-ghost {
   background: transparent;
-  border: 1px solid #bac4c2;
-  color: #bac4c2;
+  border: 1px solid #819080;
+  color: #819080;
 }
 
 .btn.btn-ghost:hover {
-  background: #bac4c2;
+  background: #819080;
   color: #ffffff;
 }
 
 .btn.btn-ghost:focus, .btn.btn-ghost:active {
   outline: none;
   background: transparent;
-  color: #bac4c2;
-  border: 1px solid #bac4c2;
+  color: #819080;
+  border: 1px solid #819080;
 }
 
 .probootstrap-section {
@@ -814,7 +823,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored, .probootstrap-section.probootstrap-section-colored-darker {
-  background: #bac4c2;
+  background: #819080;
   color: #ffffff;
 }
 
@@ -835,11 +844,11 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored-darker {
-  background: #acb8b6;
+  background: #748473;
 }
 
 .probootstrap-footer {
-  background: #99a8a5;
+  background: #637062;
   padding: 70px 0;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -889,7 +898,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-card {
-  border: 2px solid #bac4c2;
+  border: 2px solid #819080;
   background: #ffffff;
   padding: 40px;
   color: #000000 !important;
@@ -927,7 +936,7 @@ a:hover, a:focus, a:active {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 2px solid #bac4c2;
+  border: 2px solid #819080;
 }
 
 .probootstrap-form .form-group:last-child {
@@ -1037,8 +1046,8 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-heading .primary-heading {
-  font-family: "Zilla Slab", serif;
-  color: #bac4c2;
+  font-family: "Always Forever", serif;
+  color: #819080;
   margin: 0;
   padding: 0;
   font-size: 80px;
@@ -1086,7 +1095,7 @@ a:hover, a:focus, a:active {
   background: none;
   border: none;
   margin: 0 0 0;
-  background: #bac4c2;
+  background: #819080;
 }
 
 .flexslider .probootstrap-slider-text {
@@ -1320,14 +1329,14 @@ a:hover, a:focus, a:active {
 
 .owl-theme .owl-controls .owl-nav [class*='owl-'] i {
   font-size: 24px;
-  background: #bac4c2 !important;
+  background: #819080 !important;
   padding: 12px;
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
 }
 
 .owl-theme .owl-controls .owl-nav [class*='owl-']:hover i, .owl-theme .owl-controls .owl-nav [class*='owl-']:focus i {
-  background: #bac4c2 !important;
+  background: #819080 !important;
 }
 
 .owl-theme .owl-dots {
@@ -1394,7 +1403,7 @@ a:hover, a:focus, a:active {
 
 .date-countdown > div .simply-word {
   display: block;
-  font-family: "Zilla Slab", serif;
+  font-family: "Always Forever", serif;
   font-size: 16px;
   letter-spacing: 0.2em;
   color: rgba(255, 255, 255, 0.3);

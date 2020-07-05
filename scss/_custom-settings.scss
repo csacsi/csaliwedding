@@ -24,6 +24,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'alwaysforever';
+    src: url('../fonts/always_forever/Always Forever.ttf');
+    src: url('../fonts/always_forever/Always Forever.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @mixin icomoon() {
     font-family: 'icomoon';
     speak: none;
@@ -42,9 +50,11 @@ $font-primary: 'Alice',
 serif;
 $font-cim: 'Moontime',
 cursive;
-$font-secondary: 'Zilla Slab',
+$font-secondary: 'Always Forever',
 serif;
-$brand-primary: #bac4c2;
+// $font-secondary: 'Zilla Slab',
+// serif;
+$brand-primary: #819080;
 $brand-black: #000000;
 $brand-white: #ffffff;
 $brand-dropdown: #85c8dd;

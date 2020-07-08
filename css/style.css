@@ -522,6 +522,22 @@ a:hover, a:focus, a:active {
   }
 }
 
+.RibbonTitle_Green {
+  background-image: url("../img/ribbon_1.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -12px;
+}
+
+.RibbonTitle_White {
+  background-image: url("../img/ribbon_2.png");
+  color: #819080 !important;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -12px;
+}
+
 .text-intro-wrap {
   position: absolute;
   z-index: 19;
@@ -539,6 +555,7 @@ a:hover, a:focus, a:active {
   margin: 0;
   margin-top: 200px;
   font-family: "Moontime", cursive;
+  visibility: hidden;
 }
 
 .text-intro-wrap .text-intro h1 em {

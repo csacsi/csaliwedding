@@ -446,6 +446,22 @@ a {
     }
 }
 
+.RibbonTitle_Green {
+    background-image: url('../img/ribbon_1.png');
+    color: white;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -12px;
+}
+
+.RibbonTitle_White {
+    background-image: url('../img/ribbon_2.png');
+    color: $brand-primary !important;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -12px;
+}
+
 // intro text
 .text-intro-wrap {
     position: absolute;
@@ -462,6 +478,7 @@ a {
             margin: 0;
             margin-top: 200px;
             font-family: $font-cim;
+            visibility: hidden;
             em {
                 font-family: $font-primary;
                 font-weight: 200;

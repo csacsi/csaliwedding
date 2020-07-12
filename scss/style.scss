@@ -127,8 +127,8 @@ a {
     }
     // nav link padding
     .parent-nav-link-padding {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         padding-left: 0;
         padding-right: 0;
         margin-left: 15px;
@@ -273,7 +273,7 @@ a {
             >a {
                 @extend .parent-nav-link-padding;
                 color: rgba(0, 0, 0, 1);
-                font-size: 30px;
+                font-size: 40px;
                 position: relative;
                 font-family: $font-secondary;
                 // text-transform: uppercase;
@@ -478,7 +478,11 @@ a {
             margin: 0;
             margin-top: 200px;
             font-family: $font-cim;
-            visibility: hidden;
+            background-image: url('../img/ribbon_1.png');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: -24px;
+            background-size: 80%;
             em {
                 font-family: $font-primary;
                 font-weight: 200;

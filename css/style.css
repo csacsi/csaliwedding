@@ -174,8 +174,8 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .parent-nav-link-padding, .probootstrap-navbar .navbar-brand, .probootstrap-navbar .navbar-nav > li > a {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 0;
   padding-right: 0;
   margin-left: 15px;
@@ -332,7 +332,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-navbar .navbar-nav > li > a {
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   position: relative;
   font-family: "Always Forever", serif;
 }
@@ -555,7 +555,11 @@ a:hover, a:focus, a:active {
   margin: 0;
   margin-top: 200px;
   font-family: "Moontime", cursive;
-  visibility: hidden;
+  background-image: url("../img/ribbon_1.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -24px;
+  background-size: 80%;
 }
 
 .text-intro-wrap .text-intro h1 em {

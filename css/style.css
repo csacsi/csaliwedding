@@ -563,8 +563,7 @@ a:hover, a:focus, a:active {
 }
 
 .text-intro-wrap .text-intro h1 em {
-  font-family: "Alice", serif;
-  font-weight: 200;
+  font-size: 200;
 }
 
 @media screen and (max-width: 768px) {

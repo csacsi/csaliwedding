@@ -484,8 +484,7 @@ a {
             background-position-y: 80%;
             background-size: 80%;
             em {
-                font-family: $font-primary;
-                font-weight: 200;
+                font-size: 200;
             }
             @media screen and (max-width: $screen-sm) {
                 font-size: 85px;

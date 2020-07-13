@@ -481,11 +481,12 @@ a {
             background-image: url('../img/ribbon_1.png');
             background-repeat: no-repeat;
             background-position-x: center;
-            background-position-y: 80%;
+            background-position-y: center;
             background-size: 80%;
             em {
                 font-size: 200;
             }
+            padding-bottom: 4%;
             @media screen and (max-width: $screen-sm) {
                 font-size: 85px;
                 line-height: 75px;

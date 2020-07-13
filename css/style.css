@@ -558,8 +558,9 @@ a:hover, a:focus, a:active {
   background-image: url("../img/ribbon_1.png");
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: 80%;
+  background-position-y: center;
   background-size: 80%;
+  padding-bottom: 4%;
 }
 
 .text-intro-wrap .text-intro h1 em {

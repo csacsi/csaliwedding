@@ -571,6 +571,7 @@ a:hover, a:focus, a:active {
   .text-intro-wrap .text-intro h1 {
     font-size: 85px;
     line-height: 75px;
+    background-size: 100%;
   }
 }
 

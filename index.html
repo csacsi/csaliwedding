@@ -2,491 +2,522 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lilla + Csabi</title>
-    <link href="https://fonts.googleapis.com/css?family=Alice|Zilla+Slab:400,700" rel="stylesheet" />
-    <link rel="stylesheet" href="css/styles-merged.css" />
-    <link rel="stylesheet" href="css/style.min.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lilla + Csabi</title>
+  <link href="https://fonts.googleapis.com/css?family=Alice|Zilla+Slab:400,700" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles-merged.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
 
-    <!--[if lt IE 9]>
+  <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
+  <style>
+    table {
+      /* border-collapse: collapse; */
+      /* width: 100%; */
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: center;
+      /* border-bottom: 1px solid #ddd; */
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+      color: #819080;
+    }
+  </style>
+  </style>
 </head>
 
 <body>
-    <!-- Fixed navbar -->
-    <!-- navbar-fixed-top -->
-    <nav class="navbar navbar-default probootstrap-navbar awake">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-                <a class="navbar-brand" href="index.html" title="uiCookies:Wedding">Lilla + Csabi</a
-          >
-        </div>
+  <!-- Fixed navbar -->
+  <!-- navbar-fixed-top -->
+  <nav class="navbar navbar-default probootstrap-navbar awake">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html" title="uiCookies:Wedding">Lilla + Csabi</a>
+      </div>
 
-        <div id="navbar-collapse" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#" data-nav-section="when-where">Mikor és Hol</a>
-                </li>
-                <li><a href="#" data-nav-section="program">Program</a></li>
-                <li><a href="#" data-nav-section="itinerary">Szállás</a></li>
-                <li><a href="#" data-nav-section="gift">Ajándék</a></li>
-                <li><a href="#" data-nav-section="rsvp">RSVP</a></li>
-                <li><a href="#" data-nav-section="gallery">Képeink</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+      <div id="navbar-collapse" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#" data-nav-section="when-where">Mikor és Hol</a>
+          </li>
+          <li><a href="#" data-nav-section="program">Program</a></li>
+          <li><a href="#" data-nav-section="itinerary">Szállás</a></li>
+          <li><a href="#" data-nav-section="gift">Ajándék</a></li>
+          <li><a href="#" data-nav-section="rsvp">RSVP</a></li>
+          <li><a href="#" data-nav-section="gallery">Képeink</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <section class="flexslider" data-section="home" style="
+  <section class="flexslider" data-section="home" style="
         background-image: url(img/hero_bg_1.jpg);
         background-size: cover;
         background-position: center center;
         background-repeat: none;
       ">
-        <div class="container text-intro-wrap">
-            <div class="row">
-                <div class="col-md-12 text-center text-intro probootstrap-animate">
-                    <h1>
-                        Lilla
-                        <span style="font-size: 3em; position: relative; top: 0.15em">+</span
-              >
-              Csabi
-            </h1>
-            <h2>Összeházasodunk 2021. Május 30.-án, a Deák Udvarházban</h2>
-          </div>
+    <div class="container text-intro-wrap">
+      <div class="row">
+        <div class="col-md-12 text-center text-intro probootstrap-animate">
+          <h1>
+            Lilla
+            <span style="font-size: 3em; position: relative; top: 0.15em">+</span>
+            Csabi
+          </h1>
+          <h2>Összeházasodunk 2021. Május 30.-án, a Deák Udvarházban</h2>
         </div>
       </div>
-      <!-- <ul class="slides">
+    </div>
+    <!-- <ul class="slides">
         <li style="background-image: url(img/hero_bg_1.jpg);"></li>
       </ul> -->
-    </section>
-    <div
-      class="probootstrap-section probootstrap-section-colored"
-      data-section="when-where"
-    >
-      <div class="container">
-        <div class="row mb40 text-center">
-          <div class="col-md-12 probootstrap-animate">
-            <h2 class="RibbonTitle_White mt0">Mikor és Hol</h2>
-          </div>
+  </section>
+  <div class="probootstrap-section probootstrap-section-colored" data-section="when-where">
+    <div class="container">
+      <div class="row mb40 text-center">
+        <div class="col-md-12 probootstrap-animate">
+          <h2 class="RibbonTitle_White mt0">Mikor és Hol</h2>
+        </div>
+      </div>
+      <div class="col-md-12 probootstrap-animate">
+        <div class="col-md-12 probootstrap-animate">
+          <h3 style="margin-top: -40px">
+            <b>Időpont</b>
+          </h3>
+          <h3 style="margin-top: -10px">2021. Május 30. Vasárnap, 16:00</h3>
         </div>
         <div class="col-md-12 probootstrap-animate">
-          <div class="col-md-12 probootstrap-animate">
-            <h3 style="margin-top: -40px">
-              <b>Időpont</b>
-            </h3>
-            <h3 style="margin-top: -10px">2021. Május 30. Vasárnap, 16:00</h3>
-          </div>
-          <div class="col-md-12 probootstrap-animate">
-            <h3 style="margin-top: -10px">
-              <b>Helyszín</b>
-            </h3>
-            <h3 style="margin-top: -10px">Deák Udvarház, Kakucs</h3>
-            <p>
-              A Deák Udvarház egy romantikus erdei kúria Kakucson, ami a Deák
-              Ferenc tértől (honnan máshonnan) mindössze 45 percre található. Az
-              akác és fenyves erdőkkel körülölelt Udvarház előtti tavacska
-              megfelelő helyszínéül szolgál egybekelésünknek, ezt követően pedig
-              a Télikertben folytatjuk tovább a NAGY napot, a vacsorával és
-              reggelig tartó bulival.
-            </p>
-            <p>
-              <img
-                src="img/deak-udvarhaz-terkep.jpg "
-                alt="Deák udvarház térkép "
-                class="img-responsive img-rounded"
-              />
-            </p>
-          </div>
+          <h3 style="margin-top: -10px">
+            <b>Helyszín</b>
+          </h3>
+          <h3 style="margin-top: -10px">Deák Udvarház, Kakucs</h3>
+          <p>
+            A Deák Udvarház egy romantikus erdei kúria Kakucson, ami a Deák
+            Ferenc tértől (honnan máshonnan) mindössze 45 percre található. Az
+            akác és fenyves erdőkkel körülölelt Udvarház előtti tavacska
+            megfelelő helyszínéül szolgál egybekelésünknek, ezt követően pedig
+            a Télikertben folytatjuk tovább a NAGY napot, a vacsorával és
+            reggelig tartó bulival.
+          </p>
+          <p>
+            <img src="img/deak-udvarhaz-terkep.jpg " alt="Deák udvarház térkép " class="img-responsive img-rounded" />
+          </p>
         </div>
       </div>
     </div>
-    <div class="probootstrap-section" data-section="program">
-      <div class="container">
-        <div class="row mb40 text-center">
-          <div class="col-md-12 probootstrap-animate">
-            <h2 class="RibbonTitle_Green mt0">Program</h2>
-          </div>
-          <div class="col-md-12 probootstrap-animate">
-            <p>Hamarosan...</p>
-            <ul>
-              <li>15:00 Szállások elfoglalása</li>
-              <li>16:00 Vendégvárás</li>
-            </ul>
-          </div>
+  </div>
+  <div class="probootstrap-section" data-section="program">
+    <div class="container">
+      <div class="row mb40 text-center">
+        <div class="col-md-12 probootstrap-animate">
+          <h2 class="RibbonTitle_Green mt0">Program</h2>
+        </div>
+        <div class="col-md-12 probootstrap-animate">
+          <ul style="list-style-type: none;">
+            <li>15:00 Szállások elfoglalása</li>
+            <li>16:00 Vendégvárás</li>
+            <li>17:00 Ceremónia</li>
+            <li>19:00 Vacsora</li>
+            <li>21:15 Nyitótánc</li>
+            <li>22:30 Torta</li>
+            <li>Bulika</li>
+            <li>23:30 Menyecske tánc</li>
+            <li>Bulika kifulladásig</li>
+          </ul>
+          <p><b>Másnap</b></p>
+          <ul style="list-style-type: none;">
+            <li>9:00 - 10:00 Morzsaparty az ottalvóknak</li>
+            <li>10:00 Szállások elhagyása</li>
+          </ul>
         </div>
       </div>
     </div>
-    <div
-      class="probootstrap-section probootstrap-section-colored"
-      data-section="itinerary"
-    >
-      <div class="container">
-        <div class="row mb40 text-center">
-          <div class="col-md-12 probootstrap-animate">
-            <h2 class="RibbonTitle_White mt0">Szállás</h2>
-          </div>
-          <div class="col-md-12 probootstrap-animate">
-            <p>
-              A helyszínen korlátozott számban van férőhely, a végleges
-              létszámot követően tudunk iránymutatást adni, hogy a helyszínen
-              kinek biztosított a szállás, és kinek szükséges szállást foglalni
-              a közelben (Inárcs 10 perc autóval). Ehhez minden segítséget meg
-              fogunk adni, addig is Kérünk benneteket, hogy mielőbb jelezzetek
-              vissza, legkésőbb Május 17.-ig.
-            </p>
-          </div>
+  </div>
+  <div class="probootstrap-section probootstrap-section-colored" data-section="itinerary">
+    <div class="container">
+      <div class="row mb40 text-center">
+        <div class="col-md-12 probootstrap-animate">
+          <h2 class="RibbonTitle_White mt0">Szállás</h2>
         </div>
+
+        <div class="col-md-12 probootstrap-animate">
+          <table style="text-align: center; 
+          vertical-align: middle;
+          margin-left: auto;
+  margin-right: auto;
+    ">
+            <tr>
+              <Td colspan="2">Főépület</Td>
+            </tr>
+            <tr>
+              <Td>Margaréta</Td>
+              <Td>Gál Péter, Csomor Nikolett, Lantos Richárd, Széphelyi Natália</Td>
+            </tr>
+            <tr>
+              <Td>Liliom</Td>
+              <Td>Lindák László, Ronyecz Gábor</Td>
+            </tr>
+            <tr>
+              <Td>Rozmaring</Td>
+              <Td>Ronyecz Lívia, Koleszár József, Koleszár Hanna</Td>
+            </tr>
+            <tr>
+              <Td>Kéknefelejcs</Td>
+              <Td>Lindák Eszter, Lipták Dóra</Td>
+            </tr>
+            <tr>
+              <Td>Hóvirág</Td>
+              <Td>Tóth Gáborné, Kopytinsky Péter Pál</Td>
+            </tr>
+            <tr>
+              <Td>Levendula</Td>
+              <Td>Levendáné Tóth Éva, Levenda György, Levenda Zsófia</Td>
+            </tr>
+            <tr>
+              <Td>Pipacs</Td>
+              <Td>Tóth Gábor Miklós, Ronyecz Richárd</Td>
+            </tr>
+            <tr>
+              <Td>Rózsa</Td>
+              <Td>Ronyecz Lilla, Tóth Csaba</Td>
+            </tr>
+            <tr>
+              <Td colspan="2">&nbsp;</Td>
+            </tr>
+            <tr>
+              <Td colspan="2">Balatoni Ház</Td>
+            </tr>
+            <tr>
+              <Td>Hattyú</Td>
+              <Td>Gárvis Gerda, Facskó Gábor, Printz Nóra, Sándor Tamás</Td>
+            </tr>
+            <tr>
+              <Td>Réce</Td>
+              <Td>Durucz Hajnalka, Varga Attila, Gőz Adrien, Slakta Balázs</Td>
+            </tr>
+            <tr>
+              <Td>Vitorlás</Td>
+              <Td>Markoja Mónika, Topiczer Csilla, Gregor Dóra</Td>
+            </tr>
+            <tr>
+              <Td>Nádas</Td>
+              <Td>Balogh-Szőke Nikolett, Balogh Norbert, Balogh Anikó, Balogh-Szőke Lilien</Td>
+            </tr>
+            <tr>
+              <Td colspan="2">&nbsp;</Td>
+            </tr>
+            <tr>
+              <Td colspan="2">Alföldi ház</Td>
+            </tr>
+            <tr>
+              <Td>Páva</Td>
+              <Td>Bajorics Balázs, Csunderlik Ágnes, Bajoris Bence, Gábris Anna</Td>
+            </tr>
+            <tr>
+              <Td>Fecske</Td>
+              <Td>Feles Dániel, Hajgató András, Wiesner Dániel, Wiesner Péter</Td>
+            </tr>
+            <tr>
+              <Td>Kökény</Td>
+              <Td>Kulcsár Géza, Kulcsár-Kiss Klára, Bakos Gábor, Bakos-Demeter Enikő</Td>
+            </tr>
+            <tr>
+              <Td>Molnár</Td>
+              <Td>Morvai Cintia, Seres Alina, Seres Dávid</Td>
+            </tr>
+          </table>
+          <p>
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="probootstrap-section" data-section="gift">
+    <div class="container">
+      <div class="row mb40 text-center">
+        <div class="col-md-12 probootstrap-animate">
+          <h2 class="RibbonTitle_Green mt0">Ajándék</h2>
+        </div>
+        <div class="col-md-12 probootstrap-animate">
+          <p>
+            Mivel a CsaLi Cottageban már miden mi jó megtalálható, ezért arra
+            kérünk, hogy elsősorban borítékkal készülj.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <section class="probootstrap-section probootstrap-section-colored" data-section="rsvp">
+    <div class="row mb40 probootstrap-animate">
+      <div class="col-md-12 text-center">
+        <h2 class="RibbonTitle_White">
+          Visszajelzés (RSVP) Töltsétek ki Május 17.-ig.
+        </h2>
       </div>
     </div>
 
-    <div class="probootstrap-section" data-section="gift">
-      <div class="container">
-        <div class="row mb40 text-center">
-          <div class="col-md-12 probootstrap-animate">
-            <h2 class="RibbonTitle_Green mt0">Ajándék</h2>
-          </div>
-          <div class="col-md-12 probootstrap-animate">
-            <p>
-              Mivel a CsaLi Cottageban már miden mi jó megtalálható, ezért arra
-              kérünk, hogy elsősorban borítékkal készülj.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section
-      class="probootstrap-section probootstrap-section-colored"
-      data-section="rsvp"
-    >
-      <div class="row mb40 probootstrap-animate">
-        <div class="col-md-12 text-center">
-          <h2 class="RibbonTitle_White">
-            Visszajelzés (RSVP) Töltsétek ki Május 17.-ig.
-          </h2>
-        </div>
-      </div>
-
-      <div
-        class="typeform-widget"
-        data-url="https://form.typeform.com/to/KiaA0bHT"
-        data-transparency="100"
-        data-hide-headers="true"
-        data-hide-footer="true"
-        style="width: 100%; height: 500px"
-      ></div>
-      <script>
-        (function () {
-          var qs,
-            js,
-            q,
-            s,
-            d = document,
-            gi = d.getElementById,
-            ce = d.createElement,
-            gt = d.getElementsByTagName,
-            id = 'typef_orm',
-            b = 'https://embed.typeform.com/';
-          if (!gi.call(d, id)) {
-            js = ce.call(d, 'script');
-            js.id = id;
-            js.src = b + 'embed.js';
-            q = gt.call(d, 'script')[0];
-            q.parentNode.insertBefore(js, q);
-          }
-        })();
-      </script>
-      <div
-        style="
+    <div class="typeform-widget" data-url="https://form.typeform.com/to/KiaA0bHT" data-transparency="100"
+      data-hide-headers="true" data-hide-footer="true" style="width: 100%; height: 500px"></div>
+    <script>
+      (function () {
+        var qs,
+          js,
+          q,
+          s,
+          d = document,
+          gi = d.getElementById,
+          ce = d.createElement,
+          gt = d.getElementsByTagName,
+          id = 'typef_orm',
+          b = 'https://embed.typeform.com/';
+        if (!gi.call(d, id)) {
+          js = ce.call(d, 'script');
+          js.id = id;
+          js.src = b + 'embed.js';
+          q = gt.call(d, 'script')[0];
+          q.parentNode.insertBefore(js, q);
+        }
+      })();
+    </script>
+    <div style="
           font-family: Sans-Serif;
           font-size: 12px;
           color: #999;
           opacity: 0.5;
           padding-top: 5px;
-        "
-      >
-        powered by
-        <a
-          href="https://admin.typeform.com/signup?utm_campaign=KiaA0bHT&utm_source=typeform.com-01D8JTJQNCTP5BPCD97C58PE1V-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
-          style="color: #999"
-          target="_blank"
-          >Typeform</a
-        >
+        ">
+      powered by
+      <a href="https://admin.typeform.com/signup?utm_campaign=KiaA0bHT&utm_source=typeform.com-01D8JTJQNCTP5BPCD97C58PE1V-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
+        style="color: #999" target="_blank">Typeform</a>
+    </div>
+  </section> -->
+
+  <section class="probootstrap-section" data-section="gallery">
+    <div class="container">
+      <div class="row mb40 probootstrap-animate">
+        <div class="col-md-12 text-center">
+          <h2 class="RibbonTitle_Greeen">Az elmúlt öt év</h2>
+        </div>
       </div>
-    </section>
 
-    <section class="probootstrap-section" data-section="gallery">
-      <div class="container">
-        <div class="row mb40 probootstrap-animate">
-          <div class="col-md-12 text-center">
-            <h2 class="RibbonTitle_Greeen">Az elmúlt öt év</h2>
+      <div class="row probootstrap-gutter30">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="row probootstrap-gutter30">
+            <div class="col-md-6 probootstrap-animate">
+              <a class="probootstrap-image image-popup" href="img/img_3.jpg "
+                style="background-image: url(img/img_3.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_3.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 probootstrap-animate">
+              <a class="probootstrap-image image-popup" href="img/img_2.jpg "
+                style="background-image: url(img/img_2.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_2.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row probootstrap-gutter30">
+            <div class="col-md-12 probootstrap-animate">
+              <a class="probootstrap-image image-popup" href="img/img_1.jpg "
+                style="background-image: url(img/img_1.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_1.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-
-        <div class="row probootstrap-gutter30">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6 probootstrap-animate">
-                <a
-                  class="probootstrap-image image-popup"
-                  href="img/img_3.jpg "
-                  style="background-image: url(img/img_3.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_3.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a
-                  class="probootstrap-image image-popup"
-                  href="img/img_2.jpg "
-                  style="background-image: url(img/img_2.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_2.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-12 probootstrap-animate">
-                <a
-                  class="probootstrap-image image-popup"
-                  href="img/img_1.jpg "
-                  style="background-image: url(img/img_1.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_1.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6">
-                <div class="row probootstrap-gutter30">
-                  <div class="col-md-12 probootstrap-animate">
-                    <a
-                      class="probootstrap-image image-popup"
-                      href="img/img_4.jpg "
-                      style="background-image: url(img/img_4.jpg)"
-                    >
-                      <div class="probootstrap-image-for-popup">
-                        <img src="img/img_4.jpg " class="img-responsive" />
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-12 probootstrap-animate">
-                    <a
-                      class="probootstrap-image image-popup"
-                      href="img/img_5.jpg "
-                      style="background-image: url(img/img_5.jpg)"
-                    >
-                      <div class="probootstrap-image-for-popup">
-                        <img src="img/img_5.jpg " class="img-responsive" />
-                      </div>
-                    </a>
-                  </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="row probootstrap-gutter30">
+            <div class="col-md-6">
+              <div class="row probootstrap-gutter30">
+                <div class="col-md-12 probootstrap-animate">
+                  <a class="probootstrap-image image-popup" href="img/img_4.jpg "
+                    style="background-image: url(img/img_4.jpg)">
+                    <div class="probootstrap-image-for-popup">
+                      <img src="img/img_4.jpg " class="img-responsive" />
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-12 probootstrap-animate">
+                  <a class="probootstrap-image image-popup" href="img/img_5.jpg "
+                    style="background-image: url(img/img_5.jpg)">
+                    <div class="probootstrap-image-for-popup">
+                      <img src="img/img_5.jpg " class="img-responsive" />
+                    </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a
-                  class="probootstrap-image height-2x image-popup"
-                  href="img/img_6.jpg "
-                  style="background-image: url(img/img_6.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_6.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
             </div>
-          </div>
-        </div>
-        <!-- END row -->
-
-        <div class="row probootstrap-gutter30">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6">
-                <div class="row probootstrap-gutter30">
-                  <div class="col-md-12 probootstrap-animate">
-                    <a
-                      class="probootstrap-image image-popup"
-                      href="img/img_7.jpg "
-                      style="background-image: url(img/img_7.jpg)"
-                    >
-                      <div class="probootstrap-image-for-popup">
-                        <img src="img/img_7.jpg " class="img-responsive" />
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-12 probootstrap-animate">
-                    <a
-                      class="probootstrap-image image-popup"
-                      href="img/img_8.jpg "
-                      style="background-image: url(img/img_8.jpg)"
-                    >
-                      <div class="probootstrap-image-for-popup">
-                        <img src="img/img_8.jpg " class="img-responsive" />
-                      </div>
-                    </a>
-                  </div>
+            <div class="col-md-6 probootstrap-animate">
+              <a class="probootstrap-image height-2x image-popup" href="img/img_6.jpg "
+                style="background-image: url(img/img_6.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_6.jpg " class="img-responsive" />
                 </div>
-              </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a
-                  class="probootstrap-image height-2x image-popup"
-                  href="img/img_9.jpg "
-                  style="background-image: url(img/img_9.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_9.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6 probootstrap-animate">
-                <a
-                  class="probootstrap-image image-popup"
-                  href="img/img_10.jpg "
-                  style="background-image: url(img/img_10.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_10.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a
-                  class="probootstrap-image image-popup"
-                  href="img/img_11.jpg "
-                  style="background-image: url(img/img_11.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_11.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-12 probootstrap-animate">
-                <a
-                  class="probootstrap-image image-popup"
-                  href="img/img_12.jpg "
-                  style="background-image: url(img/img_12.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_12.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
         </div>
-        <!-- END row -->
-        <div class="row probootstrap-gutter30">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6">
-                <div class="row probootstrap-gutter30">
-                  <div class="col-md-12 probootstrap-animate">
-                    <a
-                      class="probootstrap-image image-popup"
-                      href="img/img_13.jpg "
-                      style="background-image: url(img/img_13.jpg)"
-                    >
-                      <div class="probootstrap-image-for-popup">
-                        <img src="img/img_13.jpg " class="img-responsive" />
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-12 probootstrap-animate">
-                    <a
-                      class="probootstrap-image image-popup"
-                      href="img/img_14.jpg "
-                      style="background-image: url(img/img_14.jpg)"
-                    >
-                      <div class="probootstrap-image-for-popup">
-                        <img src="img/img_14.jpg " class="img-responsive" />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a
-                  class="probootstrap-image height-2x image-popup"
-                  href="img/img_15.jpg "
-                  style="background-image: url(img/img_15.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_15.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-6 probootstrap-animate">
-                <a
-                  class="probootstrap-image image-popup"
-                  href="img/img_16.jpg "
-                  style="background-image: url(img/img_16.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_16.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-6 probootstrap-animate">
-                <a
-                  class="probootstrap-image image-popup"
-                  href="img/img_17.jpg "
-                  style="background-image: url(img/img_17.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_17.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="row probootstrap-gutter30">
-              <div class="col-md-12 probootstrap-animate">
-                <a
-                  class="probootstrap-image image-popup"
-                  href="img/img_18.jpg "
-                  style="background-image: url(img/img_18.jpg)"
-                >
-                  <div class="probootstrap-image-for-popup">
-                    <img src="img/img_18.jpg " class="img-responsive" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END row -->
       </div>
-    </section>
+      <!-- END row -->
 
-    <!-- <section class="probootstrap-section probootstrap-section-colored-darker ">
+      <div class="row probootstrap-gutter30">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="row probootstrap-gutter30">
+            <div class="col-md-6">
+              <div class="row probootstrap-gutter30">
+                <div class="col-md-12 probootstrap-animate">
+                  <a class="probootstrap-image image-popup" href="img/img_7.jpg "
+                    style="background-image: url(img/img_7.jpg)">
+                    <div class="probootstrap-image-for-popup">
+                      <img src="img/img_7.jpg " class="img-responsive" />
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-12 probootstrap-animate">
+                  <a class="probootstrap-image image-popup" href="img/img_8.jpg "
+                    style="background-image: url(img/img_8.jpg)">
+                    <div class="probootstrap-image-for-popup">
+                      <img src="img/img_8.jpg " class="img-responsive" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 probootstrap-animate">
+              <a class="probootstrap-image height-2x image-popup" href="img/img_9.jpg "
+                style="background-image: url(img/img_9.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_9.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="row probootstrap-gutter30">
+            <div class="col-md-6 probootstrap-animate">
+              <a class="probootstrap-image image-popup" href="img/img_10.jpg "
+                style="background-image: url(img/img_10.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_10.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 probootstrap-animate">
+              <a class="probootstrap-image image-popup" href="img/img_11.jpg "
+                style="background-image: url(img/img_11.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_11.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row probootstrap-gutter30">
+            <div class="col-md-12 probootstrap-animate">
+              <a class="probootstrap-image image-popup" href="img/img_12.jpg "
+                style="background-image: url(img/img_12.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_12.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END row -->
+      <div class="row probootstrap-gutter30">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="row probootstrap-gutter30">
+            <div class="col-md-6">
+              <div class="row probootstrap-gutter30">
+                <div class="col-md-12 probootstrap-animate">
+                  <a class="probootstrap-image image-popup" href="img/img_13.jpg "
+                    style="background-image: url(img/img_13.jpg)">
+                    <div class="probootstrap-image-for-popup">
+                      <img src="img/img_13.jpg " class="img-responsive" />
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-12 probootstrap-animate">
+                  <a class="probootstrap-image image-popup" href="img/img_14.jpg "
+                    style="background-image: url(img/img_14.jpg)">
+                    <div class="probootstrap-image-for-popup">
+                      <img src="img/img_14.jpg " class="img-responsive" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 probootstrap-animate">
+              <a class="probootstrap-image height-2x image-popup" href="img/img_15.jpg "
+                style="background-image: url(img/img_15.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_15.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="row probootstrap-gutter30">
+            <div class="col-md-6 probootstrap-animate">
+              <a class="probootstrap-image image-popup" href="img/img_16.jpg "
+                style="background-image: url(img/img_16.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_16.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 probootstrap-animate">
+              <a class="probootstrap-image image-popup" href="img/img_17.jpg "
+                style="background-image: url(img/img_17.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_17.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row probootstrap-gutter30">
+            <div class="col-md-12 probootstrap-animate">
+              <a class="probootstrap-image image-popup" href="img/img_18.jpg "
+                style="background-image: url(img/img_18.jpg)">
+                <div class="probootstrap-image-for-popup">
+                  <img src="img/img_18.jpg " class="img-responsive" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END row -->
+    </div>
+  </section>
+
+  <!-- <section class="probootstrap-section probootstrap-section-colored-darker ">
         <div class="container text-center ">
             <div class="row ">
                 <div class="col-md-12 probootstrap-animate ">
@@ -507,7 +538,7 @@
         </div>
     </section> -->
 
-    <!-- <footer class="probootstrap-footer ">
+  <!-- <footer class="probootstrap-footer ">
         <div class="container text-center ">
             <div class="row ">
                 <div class="col-md-12 ">
@@ -518,11 +549,13 @@
         </div>
     </footer> -->
 
-    <script src="js/scripts.min.js "></script>
-    <script src="js/custom.min.js "></script>
+  <script src="js/scripts.min.js "></script>
+  <script src="js/custom.min.js "></script>
 
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIX6gp5BD8LqQ7El3xTPaJcIm5xKGtqtc&sensor=false "></script>
-    <script src="js/google-map.js "></script>
-  </body>
+  <!-- Google Map -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIX6gp5BD8LqQ7El3xTPaJcIm5xKGtqtc&sensor=false "></script>
+  <script src="js/google-map.js "></script>
+</body>
+
 </html>
